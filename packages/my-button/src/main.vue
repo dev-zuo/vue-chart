@@ -13,4 +13,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="less" scoped>
+button {
+  color: red;
+}
+</style>

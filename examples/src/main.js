@@ -5,7 +5,11 @@ import router from "./router";
 Vue.config.productionTip = false;
 
 // 引入所有组件
-import VueChart from "../../src/index.js";
+// import VueChart from "../../src/index.js";
+// Vue.use(VueChart);
+// import VueChart from "../../lib/vue-chart.umd.js";
+// Vue.use(VueChart);
+import VueChart from "@guoqzuo/vue-chart";
 Vue.use(VueChart);
 
 // // 按需引入单个组件
