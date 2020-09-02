@@ -1,9 +1,9 @@
 {
   "name": "@guoqzuo/vue-chart",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": " vue echarts library",
-  "main": "lib/vue-chart.umd.min.js",
-  "unpkg": "lib/vue-chart.umd.min.js",
+  "main": "src/index.js",
+  "unpkg": "src/index.js",
   "directories": {
     "doc": "docs",
     "example": "examples",
@@ -20,6 +20,9 @@
   ],
   "dependencies": {
     "core-js": "^3.6.5",
+    "echarts": "^4.9.0",
+    "lodash-es": "^4.17.15",
+    "resize-detector": "^0.2.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
