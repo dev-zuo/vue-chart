@@ -1,13 +1,14 @@
 <template>
-  <div>
-    <div style="width:600px; height:50vh">
+  <div style="display:flex;">
+    <!-- <div style="width:600px; height:50vh">
       <z-chart :options="round" :autoResize="false"> </z-chart>
-    </div>
-    {{ bar }}
+    </div> -->
+    <!-- {{ bar }} -->
+
     <div style="width:300px; height: 300px">
       <z-chart :options="bar" :loading="loading"> </z-chart>
     </div>
-    {{ pie }}
+    <!-- {{ pie }} -->
     <div style="width: 50%; height: 50vh">
       <z-chart :options="pie" :hasData="hasData">
         暂无数据
@@ -37,7 +38,7 @@ export default {
     setTimeout(() => {
       this.loading = false;
       this.hasData = true;
-    }, 5000);
+    }, 1000);
     setTimeout(() => {
       console.log("after 5 secs");
       this.pie = bar;
@@ -47,7 +48,7 @@ export default {
         resizeEvent.initEvent("resize", true, true);
         window.dispatchEvent(resizeEvent);
       });
-    }, 10000);
+    }, 2000);
   }
 };
 </script>
