@@ -1,6 +1,6 @@
 {
   "name": "@guoqzuo/vue-chart",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": " vue echarts library",
   "main": "lib/vue-chart.umd.min.js",
   "unpkg": "lib/vue-chart.umd.min.js",
@@ -12,7 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:lib": "vue-cli-service build --mode lib --target lib --dest lib src/index.js",
-    "report": "vue-cli-service build --mode lib --target lib --dest lib src/index.js --report"
+    "doc": "docsify serve ./docs"
   },
   "keywords": [
     "vue-echarts",

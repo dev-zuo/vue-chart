@@ -51,7 +51,6 @@ docsify serve ./docs
 ### my-button
 my-button组件是一个测试按钮组件
 
-```html
 <vuep template="#myButton"></vuep>
 <script v-pre type="text/x-template" id="myButton">
 <template>
@@ -67,12 +66,11 @@ my-button组件是一个测试按钮组件
     }
   }
 </script>
-```
+
 
 ### z-chart
 z-chart组件是基于echarts的组件，只需要设置父容器的宽高，再设置 options 值即可。
 
-```html
 <vuep template="#basicBar"></vuep>
 <script v-pre type="text/x-template" id="basicBar">
 <template>
@@ -104,4 +102,3 @@ z-chart组件是基于echarts的组件，只需要设置父容器的宽高，再
     }
   }
 </script>
-```
