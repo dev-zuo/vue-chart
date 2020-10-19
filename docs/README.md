@@ -1,7 +1,32 @@
 
-# vue-chart
+# @guoqzuo/vue-chart
 
-用于测试怎么写一个组件库，并为该组件库做一个类似 Elmenet 官网的文档
+基于 Vue 2.x 组件库，用于测试怎么写一个 Vue 组件库，并为该组件库做一个类似 ElemnetUI 官网的文档。
+
+## 安装
+
+### npm 安装
+推荐使用 npm 的方式安装，它能更好地和 webpack 打包工具配合使用。
+
+```js
+// 安装
+// npm install @guoqzuo/vue-chart --save
+
+// main.js
+import VueChart from "@guoqzuo/vue-chart";
+Vue.use(VueChart);
+```
+
+### CDN
+
+在页面上引入下面两个 js 文件即可开始使用。
+
+```html
+<!-- 为减少打包体积，需外部引入echarts -->
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts-en.common.min.js"></script>
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/@guoqzuo/vue-chart@latest/lib/vue-chart.umd.min.js"></script>
+```
 
 ## 组件
 ### my-button
