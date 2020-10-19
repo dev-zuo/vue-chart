@@ -1,9 +1,9 @@
 
 # @guoqzuo/vue-chart
 
-基于 Vue 2.x 组件库，用于测试怎么写一个 Vue 组件库，并为该组件库做一个类似 ElemnetUI 官网的文档。https://zuoxiaobai.github.io/vue-chart/
+基于 Vue 2.x 组件库，用于测试怎么写一个 Vue 组件库，并为该组件库做一个类似 ElemnetUI 官网的文档。
 
-![version-v0.1.4](https://img.shields.io/badge/version-v0.1.4-yellow.svg) ![build-passing](https://img.shields.io/badge/build-passing-green.svg) ![license-MIT](https://img.shields.io/badge/license-MIT-green.svg) 
+![version-v0.1.5](https://img.shields.io/badge/version-v0.1.5-yellow.svg) ![build-passing](https://img.shields.io/badge/build-passing-green.svg) ![license-MIT](https://img.shields.io/badge/license-MIT-green.svg) 
 
 npm package
 
