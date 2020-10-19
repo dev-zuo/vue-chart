@@ -7,7 +7,7 @@ Vue.config.productionTip = false;
 // 引入所有组件
 // import VueChart from "../../src/index.js";
 // Vue.use(VueChart);
-// import VueChart from "../../lib/vue-chart.umd.js";
+// import VueChart from "../../lib/vue-chart.umd.min.js";
 // Vue.use(VueChart);
 import VueChart from "@guoqzuo/vue-chart";
 Vue.use(VueChart);

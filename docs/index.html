@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
-    <div id="app">
-        <my-button>我的按钮</my-button>
+  <div id="app">
+    <my-button>我的按钮</my-button>
+    <div style="width: 100%; height:400px">
+      <z-chart :options="barData"> </z-chart>
     </div>
-    <script src="https://unpkg.com/vue"></script>
-    <!-- <script src="../lib/vue-chart.umd.js"></script> -->
-    <script src="https://unpkg.com/@guoqzuo/vue-chart@latest/lib/vue-chart.umd.min.js"></script>
-    
-    <script>
-        const app = new Vue({
-            el: '#app'
-        })
-    </script>
+  </div>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts-en.common.min.js"></script>
+  <!-- <script src="../lib/vue-chart.umd.min.js"></script> -->
+  <script src="https://unpkg.com/@guoqzuo/vue-chart@latest/lib/vue-chart.umd.min.js"></script>
+
+  <script>
+    console.log(window['vue-chart'])
+    console.log(window['Vue'])
+    const app = new Vue({
+      el: '#app',
+      data() {
+        return {
+          barData: {
+            title: {
+              text: "ECharts 入门示例"
+            },
+            tooltip: {},
+            xAxis: {
+              data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+            },
+            yAxis: {},
+            series: [
+              {
+                name: "销量",
+                type: "bar",
+                data: [5, 20, 36, 10, 10, 20]
+              }
+            ]
+          }
+        }
+      }
+    })
+  </script>
 </body>
+
 </html>

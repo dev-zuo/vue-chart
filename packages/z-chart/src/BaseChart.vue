@@ -6,7 +6,7 @@
 <script>
 import echarts from "echarts";
 import { addListener, removeListener } from "resize-detector";
-import { debounce } from "lodash-es";
+import { debounce } from "lodash";
 
 export default {
   name: "BaseChart",

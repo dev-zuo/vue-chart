@@ -14,7 +14,10 @@ const install = function(Vue) {
 
 // 直接给浏览器或 AMD loader 使用
 if (typeof window !== undefined && window.Vue) {
-  install(window.Vue);
+  window.Vue.use(install);
+  if (install.installed) {
+    install.installed = false;
+  }
 }
 
 export default {
