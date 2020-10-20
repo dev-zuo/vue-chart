@@ -1,6 +1,6 @@
 {
   "name": "@guoqzuo/vue-chart",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": " vue echarts library",
   "main": "lib/vue-chart.umd.min.js",
   "unpkg": "lib/vue-chart.umd.min.js",
